@@ -1,0 +1,336 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+
+		<fileDesc>
+
+			<titleStmt>
+				<title>Macbeth as a kids' play</title>
+				<respStmt>
+					<resp>Based on</resp>
+					<name>British Council's short story of Macbeth for kids</name>
+				</respStmt>
+
+				<respStmt>
+					<resp>Edited by</resp>
+					<name>DHDK student Lamargese Amelia Simonetta</name>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<p>Distributed privately for a university project</p>
+			</publicationStmt>
+
+			<sourceDesc>
+				<p>No print source exists: this is an original digital text</p>
+			</sourceDesc>
+
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<p>Texts collected and edited for a project for the Digital Text in the Humanities' course of the Digital Humanities and Digital Knowledge master's degree (University of Bologna)</p>
+			</projectDesc>
+
+			<schemaSpec ident="myTEI" docLang="en" xml:lang="en">
+				<moduleRef key="drama"/>
+				<moduleRef key="tei"/>
+				<moduleRef key="header"/>
+				<moduleRef key="textstructure"/>
+			</schemaSpec>
+
+			<tagsDecl>
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="stage">This element is used for all stage directions</tagUsage>
+				</namespace>	
+			</tagsDecl>	
+
+		</encodingDesc>	
+
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+
+			<textDesc n="play">
+				<channel mode="ws">Written to be spoken. A play's text to be performed as drama.</channel>
+				<constitution type="single"/>
+				<derivation type="revision"/>
+				<domain type="education"/>
+				<factuality type="fiction"/>
+				<interaction type="complete" active="plural" passive="group"/>
+				<preparedness type="scripted"/>
+				<purpose type="persuade" degree="high"/>
+				<purpose type="entertain" degree="medium"/>
+			</textDesc>
+
+			<settingDesc>
+				<p>Scotland</p>
+			</settingDesc>
+
+		</profileDesc>
+
+	</teiHeader>
+
+    <text>
+        <front>
+
+            <docTitle>
+				<titlePart>MACBETH</titlePart>
+			</docTitle>
+
+            <set>
+                <p>The story is set in Scotland</p>
+            </set>
+
+            <div type="Dramatis_Personae">
+                <castList>
+                    <castItem>
+                        <role>Macbeth</role>
+                        <roleDesc>Protagonist</roleDesc>
+                    </castItem>
+
+                    <castItem>
+                        <role>Lady Macbeth</role>
+                        <roleDesc>Macbeth's wife, Deuteragonist</roleDesc>
+                    </castItem>
+
+                    <castItem>
+                        <role>Banquo's ghost</role>
+                        <roleDesc>Macbeth's best friend's ghost, Confidante</roleDesc>
+                    </castItem>
+
+                    <castItem>
+                        <role>King Duncan</role>
+                        <roleDesc>the Antagonist</roleDesc>
+                    </castItem>
+
+                    <castGroup>
+                        <head>the Witches</head>
+
+                        <castItem>
+                            <role>Witch 1</role>
+                        </castItem>
+
+                        <castItem>
+                            <role>Witch 2</role>
+                        </castItem>
+
+                        <castItem>
+                            <role>Witch 3</role>
+                        </castItem>
+                    </castGroup>    
+
+                    <castGroup>
+                        <head>Narrators</head>
+                        
+                        <castItem>
+                            <role>Narrator 1</role>
+                            <roleDesc>Narrator of Scene 1</roleDesc>
+                        </castItem>
+                    
+                        <castItem>
+                            <role>Narrator 2</role>
+                            <roleDesc>Narrator of Scene 2</roleDesc>
+                        </castItem>
+                        
+                        <castItem>
+                            <role>Narrator 3</role>
+                            <roleDesc>Narrator of Scene 3</roleDesc>
+                        </castItem>
+                        
+                        <castItem>
+                            <role>Narrator 4</role>
+                            <roleDesc>Narrator of Scene 4</roleDesc>
+                        </castItem>
+                    </castGroup>	
+
+                </castList>
+            </div>
+        </front>
+
+        <body>
+            <div type="scene">
+                <head>SCENE 1</head>
+
+                <stage>Narrator 1, Macbeth, Lady Macbeth, the Witches</stage>
+
+                <stage type="entrance">(Narrator 1 enters the scene and goes to the left corner of the stage. Macbeth goes in the middle of the main stage, with a sword in the hand.</stage>
+
+                <sp>
+                    <speaker>Narrator 1</speaker>
+                    <p>Macbeth and his best friend, Banquo, are brave soldiers. One day, after a battle, three ugly witches come out of the fog.</p>
+                </sp>
+
+                <stage type="gesture">(Macbeth looks really tired and dries the sweat on his forehead)</stage>
+
+                <stage type="entrance">(The Witches go in front of Macbeth)</stage>    
+
+                <sp>
+                    <speaker>Witch 1</speaker>
+                    <p>Macbeth. You will be the new King of Scotland! He, he, he, ha, ha, ha!</p>
+                </sp>         
+
+                <stage type="exit">(The Witches, laughing, exit the scene)</stage>
+
+                <sp>
+                    <speaker>Macbeth</speaker>
+                    <p>Me? The new King of Scotland?</p>
+                </sp>     
+
+                <sp>
+                    <speaker>Narrator 1</speaker>
+                    <p>Macbeth writes a letter to his wife, Lady Macbeth. He tells her what the witches said.</p>
+                </sp>    
+
+                <stage type="exit">(Macbeth pulls a sheet of paper out of his pocket, writes something on it, and exits the scene holding the letter in his hand)</stage>
+
+                <stage type="entrance">(Lady Macbeth enters the scene holding a letter in her hands. She stops in the middle of the stage, open the letters and looks at it)</stage>
+           
+                <sp>
+                    <speaker>Lady Macbeth</speaker>
+                    <p>Yes! If he is the king, I will be the queen!</p>
+                </sp>
+
+                <stage type="exit">(Everybody leaves)</stage>
+            </div>
+
+            <div type="scene">
+                <head>SCENE 2</head>
+
+                <stage>Macbeth, Narrator 2, Lady Macbeth, King Duncan</stage>
+
+                <stage type="entrance">(Narrator 2 goes to the left front corner of the stage. Macbeth and Lady Macbeth go in the middle of the stage, while King Duncan lays down a little far from them, in the right side of the stage, and sleeps)</stage>
+
+                <sp>
+                    <speaker>Narrator 2</speaker>
+                    <p>King Duncan comes for dinner and sleeps at Macbeth’s castle. When Duncan is asleep, Lady Macbeth tells Macbeth to kill him.</p>
+                </sp>   
+
+                <stage type="exit">(Lady Macbeth says something in Macbeth's ear, then leaves the scene, running a little)</stage>    
+
+                <sp>
+                    <speaker>Macbeth</speaker>
+                    <p>I really want to be king. But I am very frightened about killing Duncan. He is a good king..</p>
+                </sp>
+
+                <stage type="gesture">(Macbeth sees a knife on the floor and takes it)</stage>
+
+                <sp>
+                    <speaker>Narrator 2</speaker>
+                    <p>Macbeth sees a knife in front of him. He knows it is wrong, but he decides to kill Duncan.</p>
+                </sp>    
+
+                <sp>
+                    <speaker>Macbeth</speaker>
+                    <p>I must do this quickly.</p>
+                </sp> 
+
+                <stage type="gesture">(Macbeth kills Duncan with the knife)</stage>
+
+                 <sp>
+                    <speaker>Narrator 2</speaker>
+                    <p>Duncan is dead but Macbeth feels bad about killing him.</p>
+                </sp> 
+
+                 <sp>
+                    <speaker>Macbeth</speaker>
+                    <p>It’s OK. Nobody will know our secret.</p>
+                </sp> 
+
+                <stage type="exit">(Everybody leaves)</stage>
+
+            </div>
+
+            <div type="scene">
+                <head>SCENE 3</head>
+
+                <stage>The Witches, Macbeth, Banquo's ghost, Narrator 3</stage>
+
+                <stage type="entrance">(Narrator 3 goes to the left front corner of the stage. Macbeth goes in the middle)</stage>
+
+                <sp>
+                    <speaker>Narrator 3</speaker>
+                    <p>Macbeth becomes king but he is worried that his friend Banquo knows he killed Duncan. He decides that Banquo must die too and he orders his servant to kill him.</p>
+                </sp>
+
+                <sp>
+                    <speaker>Macbeth</speaker>
+                    <p>I am king, but I am not happy. I feel terrible about killing Duncan and Banquo and I am worried people will know my secret.</p>
+                </sp>
+
+                <stage type="entrance">(Banquo's ghost crosses the scene in front of Macbeth and exits from the other side of the stage)</stage>
+
+                <stage type="gesture">(Macbeth is very frightened by seeing the ghost and covers his head with his arms)</stage>
+
+                <sp>
+                    <speaker>Narrator 3</speaker>
+                    <p>Macbeth sees Banquo’s ghost in front of him. He’s very frightened. He goes to see the witches again.</p>
+                </sp>
+
+                <stage type="entrance">(The Witches enter the scene and go in front of Macbeth)</stage>
+
+                <stage type="gesture">(Macbeth looks at them putting down his arms)</stage>
+
+                <sp>
+                    <speaker>Narrator 3</speaker>
+                    <p>Macbeth asks the witches if he’s in danger.</p>
+                </sp>
+
+                <sp>
+                    <speaker>Witch 2</speaker>
+                    <p>Don’t worry. Everything will be OK.</p>
+                </sp>
+
+                <sp>
+                    <speaker>Witch 3</speaker>
+                    <p>Yes, everything will be fine.</p>
+                </sp>
+
+                <sp>
+                    <speaker>Narrator 3</speaker>
+                    <p>Macbeth believes the witches but they were lying.</p>
+                </sp>
+
+                <stage type="exit">(The Witches exit laughing together. Then, everybody leaves)</stage>
+            </div>
+
+            <div type="scene">
+                <head>SCENE 4</head>
+
+                <stage>Narrator 4, Macbeth, Lady Macbeth</stage>
+
+                <stage type="entrance">(Narrator 4 goes in the left front corner of the main stage. Lady Macbeth goes in the middle of the stage, closes her eyes and looks very frightened, covering her head with her arms and crying)</stage>
+
+                <sp>
+                    <speaker>Narrator 4</speaker>
+                    <p>Lady Macbeth is sleepwalking. She wanted to be queen but now she feels terrible. She understands that it is wrong to kill.</p>
+                </sp>    
+
+                <stage type="exit">(Lady Macbeth exits the scene, still crying)</stage>
+
+                <sp>
+                    <speaker>Narrator 4</speaker>
+                    <p>An army comes to attack the castle. The people know that Macbeth killed Duncan.</p>
+                </sp> 
+
+                <stage type="entrance">(Macbeth goes in the middle of the stage, running and very worried)</stage>
+
+                <sp>
+                    <speaker>Macbeth</speaker>
+                    <p>The witches said I was safe. They lied to me!</p>
+                </sp>
+
+                <stage type="exit">(Macbeth runs out of the scene)</stage>
+
+                <stage type="gesture">(Narrator 4 goes in the middle of the stage)</stage>
+
+                <sp>
+                    <speaker>Narrator 4</speaker>
+                    <p>Macbeth is dead and now the people have a good, new king.</p>
+                </sp>
+
+                <stage type="exit">(Narrator 4 takes a bow and exits the scene)</stage>
+            </div>
+        </body>
+    </text>            
+</TEI>    
