@@ -59,6 +59,19 @@
   box-sizing: border-box;
 }
 
+#siteTitle{
+  color: white;
+}
+
+#about{
+  font-size: 20px;
+}
+
+#teamRow{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -11359,6 +11372,17 @@ html {
   text-decoration: none;
 }
 
+.sidebar-nav > .sidebar-brand1 {
+  font-size: 1.2rem;
+  background: rgba(52, 58, 64, 0.1);
+  height: 50px;
+  line-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  color: white;
+}
+
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
   background: rgba(52, 58, 64, 0.1);
@@ -11367,16 +11391,7 @@ html {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
-  background: none;
+  color: white;
 }
 
 #sidebar-wrapper.active {

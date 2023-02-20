@@ -3,18 +3,17 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
         <title>Play with Shakespeare</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+        <!-- Logo-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Simple line icons-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- CSS-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
@@ -22,19 +21,20 @@
         <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand">Play with Shakespeare</li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#plays">Plays</a></li>
-                <li class="sidebar-nav-item"><a href="#team">The team</a></li>
-                <li class="sidebar-nav-item"><a href="project.html">The project</a></li>
+                <li class="sidebar-brand1"><img src="assets/img/logo.png" width="50" height="50"/></li>
+                <li class="sidebar-brand"><i>Play with Shakespeare</i></li>
+                <li class="sidebar-nav-item"><a href="#page-top"><img src="assets/img/home.png" width="25" height="25"/>&emsp;Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about"><img src="assets/img/about.png" width="25" height="25"/>&emsp;About</a></li>
+                <li class="sidebar-nav-item"><a href="#plays"><img src="assets/img/play.png" width="25" height="25"/>&emsp;Plays</a></li>
+                <li class="sidebar-nav-item"><a href="#team"><img src="assets/img/team.png" width="25" height="25"/>&emsp;The team</a></li>
+                <li class="sidebar-nav-item"><a href="project.html"><img src="assets/img/project.png" width="25" height="25"/>&emsp;The project</a></li>
             </ul>
         </nav>
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1">Play with Shakespeare</h1>
-                <h3 class="mb-5">A digital tool for kids' edutainment</h3>
+                <h1 class="mb-1" id="siteTitle"><img src="assets/img/home.png" width="50" height="50"/>Play with Shakespeare<img src="assets/img/home2.png" width="50" height="50"/></h1>
+                <h3 class="mb-5" id="siteTitle">A digital tool for kids' edutainment, to bring children closer to Shakespeare's plays in a fun and engaging way</h3>
                 <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
             </div>
         </header>
@@ -43,8 +43,14 @@
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
                     <h3 class="text-secondary mb-0">Introduction</h3>
-                    <h2 class="mb-5">What's <i>Play with Shakespeare</i></h2>
-                    <p>Write</p>
+                    <h2 class="mb-5"><img src="assets/img/about.png" width="50" height="50"/>What's <i>Play with Shakespeare</i><img src="assets/img/about2.png" width="50" height="50"/></h2>
+                    <p id="about">The website offers <b>digital editions</b> of <b>Shakespeare’s plays</b>, suited <b>for children</b>.<br><br>
+                        The <b>ideal range of age</b> of the children developing the activities would be 6-11 years, but of course the users are free to decide if our project could adapt for other children according to their abilities and competences.<br><br>
+                        The website has an intended <b>audience</b> of teachers, educators, animators, parents, who could use the website as material for children's activities, thus, the <b>layout</b> is clear and easily understandable.<br><br>
+                        The <b>texts of the plays</b> are short and selected in order to be interesting for an audience of young listeners. They contain only a simplified version of the raw dialogues, becoming a story which a child could easily read.<br><br>
+                        The <b>main activity</b> proposed by the website is the children's recital of the plays in order to make them learn about Shakespeare’s creations and characters in a fun and engaging way but the texts could also be read as stories.<br><br>
+                        All the additional information, for example about the characters, the scenes of the play, the moves of the characters on the scene, will be expressed through <b>markup (XML)</b>, so that just the adults approaching this website will be using them to obtain more information according to the different needs and situations experienced.
+                    </p>
                 </div>
             </div>
         </section>
@@ -54,7 +60,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
                     <h3 class="text-secondary mb-0">The plays</h3>
-                    <h2 class="mb-5">Discover Shakespeare's worlds</h2>
+                    <h2 class="mb-5"><img src="assets/img/play.png" width="50" height="50"/>Discover Shakespeare's worlds<img src="assets/img/play2.png" width="50" height="50"/></h2>
                 </div>
                 <div class="row gx-0">
                     <div class="col-lg-6">
@@ -62,10 +68,10 @@
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Romeo and Juliet</div>
-                                    <p class="mb-0">Short description</p>
+                                    <p class="mb-0">A tragic love story where the two main characters, Romeo and Juliet, are supposed to be sworn enemies but fall in love.</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg"/>
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -73,10 +79,10 @@
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Macbeth</div>
-                                    <p class="mb-0">Short description</p>
+                                    <p class="mb-0">The story of one man's violent rise to a position of power as king of his country and of his even more violent downfall.</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-2.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio-2.jpg"/>
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -84,10 +90,10 @@
                             <div class="caption">
                                 <div class="caption-content">
                                     <div class="h2">Hamlet</div>
-                                    <p class="mb-0">Short description</p>
+                                    <p class="mb-0">The story of Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father.</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio-3.jpg"/>
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -98,7 +104,7 @@
                                     <p class="mb-0">Stay tuned</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio-4.jpg"/>
                         </a>
                     </div>
                     
@@ -110,9 +116,9 @@
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
                     <h3 class="text-secondary mb-0">The team</h3>
-                    <h2 class="mb-5">What We Offer</h2>
+                    <h2 class="mb-5"><img src="assets/img/team.png" width="50" height="50"/>About Us<img src="assets/img/team2.png" width="50" height="50"/></h2>
                 </div>
-                <div class="row gx-4 gx-lg-5">
+                <div class="row gx-4 gx-lg-5" id="teamRow">
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
                         <h4><strong>Ginevra</strong></h4>
@@ -135,6 +141,7 @@
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container px-4 px-lg-5">
+                <img src="assets/img/logo.png" width="50" height="50"/><br><br>
                 <p class="mb-0">MA <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge"><i>Digital Humanities and Digital Knowledge</i></a>, <a href="https://www.unibo.it/en/homepage">University of Bologna</a><br>Course <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/424631"><i>Digital Text in the Humanities: Theories, Methodologies and Applications</i></a></p>
                 <br>
                 <p class="text-muted small mb-0">Powered by Bootstrap</p>
