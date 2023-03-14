@@ -11621,3 +11621,16 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+
+/*PLAYS PAGE*/
+
+.mastheadPlays{
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
