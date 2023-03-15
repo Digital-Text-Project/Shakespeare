@@ -34,8 +34,8 @@
         <!-- Header-->
         <header class="mastheadPlays d-flex align-items-center">
             <div class="container px-4 px-lg-5 text-center">
-                <h1 class="mb-1" id="ProjTitle"><img src="assets/img/play.png" width="70" height="70"/>The plays<img src="assets/img/play2.png" width="70" height="70"/></h1>
-                <h3 class="mb-5" id="ProjTitle">Chose your play and start your journey!</h3>
+                <h1 class="mb-1" id="PlaysTitle"><img src="assets/img/play.png" width="70" height="70"/>The plays<img src="assets/img/play2.png" width="70" height="70"/></h1>
+                <h3 class="mb-5" id="PlaysTitle">Choose your play and start your journey!</h3>
             </div>
         </header>
 
@@ -43,7 +43,7 @@
         <section id="plays">
                 <div class="row gx-0">
 
-                    <div class="album py-5 bg-light">
+                    <div class="album bg-primary py-5">
                         <div class="container">
                             <div class="row">
                              
@@ -56,7 +56,7 @@
                                 <br>
                                 <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
+                                <button type="button" onclick="showRomeo()" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
                                 </div>
                                 </div>
                                 </div>
@@ -71,7 +71,7 @@
                                 <br>
                                 <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
+                                <button type="button" onclick="showMacbeth()" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
                                 </div>
                                 </div>
                                 </div>
@@ -86,7 +86,7 @@
                                 <br>
                                 <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
+                                <button type="button" onclick="showHamlet()" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
                                 </div>
                                 </div>
                                 </div>
@@ -99,6 +99,16 @@
 
                 </div>
         </section>
+
+        <!-- Plays texts and selection -->
+        <section class="content-section" id="texts">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Choose a play and read the text here</h3>
+                    
+                </div>
+            </div>
+        </section>        
         
         <!-- Footer-->
         <footer class="footer bg-primary text-white text-center">
