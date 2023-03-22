@@ -1,0 +1,417 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+
+		<fileDesc>
+
+			<titleStmt>
+				<title>Romeo and Juliet as a kids' play</title>
+				<respStmt>
+					<resp>Based on</resp>
+					<name>British Council's short story of Romeo and Juliet for kids</name>
+				</respStmt>
+
+				<respStmt>
+					<resp>Edited by</resp>
+					<name>DHDK student Lamargese Amelia Simonetta</name>
+				</respStmt>
+			</titleStmt>
+
+			<publicationStmt>
+				<p>Distributed privately for a university project</p>
+			</publicationStmt>
+
+			<sourceDesc>
+				<p>No print source exists: this is an original digital text</p>
+			</sourceDesc>
+
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<p>Texts collected and edited for a project for the Digital Text in the Humanities' course of the Digital Humanities and Digital Knowledge master's degree (University of Bologna)</p>
+			</projectDesc>
+
+			<schemaSpec ident="myTEI" docLang="en" xml:lang="en">
+				<moduleRef key="drama"/>
+				<moduleRef key="tei"/>
+				<moduleRef key="header"/>
+				<moduleRef key="textstructure"/>
+			</schemaSpec>
+
+			<tagsDecl>
+				<namespace name="http://www.tei-c.org/ns/1.0">
+					<tagUsage gi="stage">This element is used for all stage directions</tagUsage>
+				</namespace>	
+			</tagsDecl>	
+
+		</encodingDesc>	
+
+		<profileDesc>
+			<langUsage>
+				<language ident="en">English</language>
+			</langUsage>
+
+			<textDesc n="play">
+				<channel mode="ws">Written to be spoken. A play's text to be performed as drama.</channel>
+				<constitution type="single"/>
+				<derivation type="revision"/>
+				<domain type="education"/>
+				<factuality type="fiction"/>
+				<interaction type="complete" active="plural" passive="group"/>
+				<preparedness type="scripted"/>
+				<purpose type="persuade" degree="high"/>
+				<purpose type="entertain" degree="medium"/>
+			</textDesc>
+
+			<settingDesc>
+				<p>Verona, Italy</p>
+			</settingDesc>
+
+		</profileDesc>
+
+	</teiHeader>
+
+	<text>
+		<front>
+			
+			<docTitle>
+				<titlePart>ROMEO AND JULIET</titlePart>
+			</docTitle>
+			
+			<set>
+				<p>
+					The story is set in Verona's streets.
+				</p>
+			</set>
+			
+			<div type="Dramatis_Personae">
+				<head>Characters</head>
+				<castList>
+					
+					<castGroup>
+						<head>Capulets</head>
+						
+						<castItem>
+							<role>Juliet</role>
+							<roleDesc>Love Interest</roleDesc>
+						</castItem>
+						
+						<castItem>
+							<role>Lord Capulet</role>
+							<roleDesc>Juliet's father</roleDesc>
+						</castItem>
+
+						<castItem>
+							<role>Lady Capulet</role>
+							<roleDesc>Juliet's mother</roleDesc>
+						</castItem>
+
+						<castItem>
+							<role>Tybalt</role>
+							<roleDesc>Antagonist</roleDesc>
+						</castItem>
+							
+					</castGroup>
+
+					<castGroup>
+						<head>Montagues</head>
+						
+						<castItem>
+							<role>Romeo</role>
+							<roleDesc>Protagonist</roleDesc>
+						</castItem>
+
+						<castItem>
+							<role>Lord Montague</role>
+							<roleDesc>Romeo's father</roleDesc>
+						</castItem>
+
+						<castItem>
+							<role>Lady Montague</role>
+							<roleDesc>Romeo's mother</roleDesc>
+						</castItem>
+
+						<castItem>
+							<role>Mercutio</role>
+							<roleDesc>Deuteragonist</roleDesc>
+						</castItem>
+						
+					</castGroup>
+
+					<castItem>
+						<role>Friar Lawrence</role>
+						<roleDesc>Confidante</roleDesc>
+					</castItem>
+					
+					<castGroup>
+						<head>Narrators</head>
+						
+						<castItem>
+							<role>Narrator 1</role>
+							<roleDesc>Narrator of Scene 1</roleDesc>
+						</castItem>
+					
+						<castItem>
+							<role>Narrator 2</role>
+							<roleDesc>Narrator of Scene 2</roleDesc>
+						</castItem>
+						
+						<castItem>
+							<role>Narrator 3</role>
+							<roleDesc>Narrator of Scene 3</roleDesc>
+						</castItem>
+						
+						<castItem>
+							<role>Narrator 4</role>
+							<roleDesc>Narrator of Scene 4 and 5</roleDesc>
+						</castItem>
+					</castGroup>	
+					
+					<castItem>
+						<role>Prince of Verona</role>
+					</castItem>	
+				
+				</castList>
+			</div>
+		</front>
+		
+		<body>
+			<div type="scene">
+				<head>SCENE 1</head>
+				
+				<stage>Narrator 1, Capulets, Montagues</stage>
+				
+				<stage type="entrance">(Narrator 1 goes in the middle of the main stage)</stage>
+				
+				<sp>
+					<speaker>Narrator 1</speaker>
+					<p>Many years ago in Verona, Italy, there were two families</p>
+				</sp>
+
+				<stage type="entrance">(Capulets and Montagues come into the main stage, one on the left side and one on the right side of Narrator 1)</stage>
+				
+				<stage type="gesture">(Capulets put their hands up)</stage>
+				
+				<sp>
+					<speaker>Capulets</speaker>
+					<p>We are the Capulets!</p>
+				</sp>	
+				
+				<stage type="gesture">(Capulets put their hands down)</stage>
+				
+				<stage type="gesture">(Montagues put their hands up)</stage>
+				
+				<sp>
+					<speaker>Montagues</speaker>
+					<p>We are the Montagues!</p>
+				</sp>
+				
+				<stage type="gesture">(Montagues put their hands down)</stage>
+				
+				<sp>
+					<speaker>Narrator 1</speaker>
+					<p>These families are always fighting. The Montagues have a son, Romeo.</p>
+				</sp>
+				
+				<stage type="gesture">(Romeo goes beside the Narrator and greets the public)</stage>
+				
+				<sp>
+					<speaker>Narrator 1</speaker>
+					<p>The Capulets have a daughter, Juliet.</p>
+				</sp>
+				
+				<stage type="gesture">(Juliet goes beside the Narrator and greets the public)</stage>
+				
+				<stage type="exit">(Everybody leaves the main stage)</stage>
+			</div>
+
+			<div type="scene">
+				<head>SCENE 2</head>
+				
+				<stage>Narrator 2, Capulets, Romeo</stage>
+				
+				<stage type="entrance">(Capulets and Narrator 2 enter the main stage; everybody is talking with somebody at a very low voice, while the Narrator 2 goes in the left corner of the front part of the stage.)</stage>
+
+				<sp>
+					<speaker>Narrator 2</speaker>
+					<p>One night the Capulets have a party and Romeo goes.</p>
+				</sp>	
+				
+				<stage type="entrance">(Romeo enters the main stage looking around, then bumps into Juliet in the middle of the main stage.)</stage>
+				
+				<stage type="gesture">(Romeo and Juliet look and slowly take each other’s hand)</stage>
+				
+				<sp>
+					<speaker>Narrator 2</speaker>
+					<p>He meets Juliet and they fall in love.</p>
+				</sp>
+				
+				<stage type="gesture">(Tybalt stops talking with someone, goes near the middle of the main stage, looking at Romeo)</stage>
+				
+				<sp>
+					<speaker>Narrator 2</speaker>
+					<p>Juliet’s cousin, Tybalt, sees Romeo and is very angry.</p>
+				</sp>
+				
+				<stage type="gesture">(Tybalt points at Romeo with his finger)</stage>
+				
+				<sp>
+					<speaker>Tybalt</speaker>
+					<p>He’s a Montague! Get him!</p>
+				</sp>
+				
+				<sp>
+					<speaker>Juliet</speaker>
+					<p>Oh Romeo, why are you a Montague?</p>
+				</sp>
+				
+				<stage type="gesture">(Romeo and Juliet hug)</stage>
+				
+				<sp>
+					<speaker>Narrator 2</speaker>
+					<p>Romeo and Juliet talk and decide to get married.</p>
+				</sp>
+				
+				<stage type="exit">(Everybody leaves the scene)</stage>
+			</div>
+			
+			<div type="scene">
+				<head>SCENE 3</head>
+				
+				<stage>Narrator 3, Friar Lawrence, Juliet, Romeo, Tybalt, Mercutio, Prince of Verona</stage>
+				
+				<stage type="entrance">(Narrator 3 enters the main stage and stops in the left corner. Romeo, Juliet and Friar Lawrence go to the middle of the main stage. Friar Lawrence is standing in front of Juliet and Romeo, who are holding their hands and looking at each other’s eyes)</stage>
+				
+				<sp>
+					<speaker>Narrator 3</speaker>
+					<p>They know that their families will be very angry so they go to Friar Lawrence and are married in secret.</p>
+				</sp>
+				
+				<stage type="gesture">(Friar Lawrence nods and Romeo and Juliet kiss each other’s cheek)</stage>
+				
+				<stage type="exit">(Friar Lawrence leaves the stage and Juliet says goodbye to Romeo and leaves the scene as well)</stage>
+				
+				<stage type="entrance">(Mercutio enters the scene and shakes Romeo’s hand, then they start walking around, slowly, together. Tybalt enters the scene and looks at Romeo with angry face)</stage>
+				
+				<sp>
+					<speaker>Narrator 3</speaker>
+					<p>The next day, Tybalt sees Romeo. He is still angry with Romeo and wants to fight him. Romeo doesn’t want to fight but his best friend, Mercutio, does.</p>
+				</sp>
+				
+				<stage type="gesture">(Tybalt weakly pushes Romeo, but Romeo steps back and Mercutio puts himself between Romeo and Tybalt)</stage>
+				
+				<sp>
+					<speaker>Mercutio</speaker>
+					<p>If you won’t fight him, I will!</p>
+				</sp>
+				
+				<sp>
+					<speaker>Narrator 3</speaker>
+					<p>Mercutio fights Tybalt and Tybalt kills Mercutio.</p>
+				</sp>
+				
+				<stage type="gesture">(Tybalt kills Mercutio with a sword)</stage>
+				
+				<stage type="entrance">(The Prince of Verona enters the stage and looks at the scene)</stage>
+				
+				<sp>
+					<speaker>Narrator 3</speaker>
+					<p>Romeo is so upset he fights Tybalt and kills him too!</p>
+				</sp>
+				
+				<stage type="gesture">(Romeo kills Tybalt with a sword. The Prince of Verona, very surprised and angry, goes next to Romeo and sends him away pointing at the exit of the stage with his finger)</stage>
+				
+				<sp>
+					<speaker>Narrator 3</speaker>
+					<p>The Prince of Verona is very angry and sends Romeo away.</p>
+				</sp>
+				
+				<stage type="exit">(Romeo, very sad, leaves the scene and then everybody leaves)</stage>
+				
+			</div>
+
+			<div type="scene">
+				<head>SCENE 4</head>
+				
+				<stage>Juliet, Friar Lawrence, Narrator 4, Romeo</stage>
+				
+				<stage type="entrance">(Juliet and Friar Lawrence go to the middle of the stage. Narrator 4 goes to the left corner)</stage>
+				
+				<stage type="gesture">(Juliet is standing in front of Friar Lawrence, but then cries and falls on her knees)</stage>
+				
+				<sp>
+					<speaker>Narrator 4</speaker>
+					<p>Juliet goes to Friar Lawrence for help.</p>
+				</sp>
+				
+				<stage type="gesture">(Friar Lawrence pulls out of his pocket a little potion)</stage>
+				
+				<sp>
+					<speaker>Friar Lawrence</speaker>
+					<p>Here is a special drink. You will sleep for two days. Your family will think you are dead but you will wake up. Then you and Romeo can be free together.</p>
+				</sp>
+				
+				<stage type="gesture">(Juliet stands up, takes the potion, nods and exits the scene)</stage>
+				
+				<stage type="exit">(Narrator 4 exits the scene)</stage>
+				
+				<stage type="entrance">(Romeo enters the scene from the right-side walking alone)</stage>
+				
+				<stage type="gesture">(Friar Lawrence, without looking at Romeo, walks towards the left side of the stage, then turns around and sees Romeo. They all stop walking, they look at each other. Friar Lawrence puts his left hand near his mouth to tell something to Romeo being distant)</stage>
+				
+				<sp>
+					<speaker>Friar Lawrence</speaker>
+					<p>Juliet is not dead.</p>
+				</sp>
+				
+				<stage type="exit">(Friar Lawrence looks around him a bit frightened, then runs out of the scene)</stage>
+				
+				<stage type="gesture">(Romeo shortly runs to reach the middle of the stage)</stage>
+				
+				<sp>
+					<speaker>Romeo</speaker>
+					<p>He said that Juliet is dead! I will drink a poison!</p>
+				</sp>
+				
+				<stage type="exit">(Romeo pulls a poison out of his pocket, looks at it and runs out of the stage)</stage>
+				
+			</div>
+
+			<div type="scene">
+				<head>SCENE 5</head>
+				
+				<stage>Montagues, Capulets, Narrator 4</stage>
+				
+				<stage type="entrance">(Juliet goes in the middle of the stage, sits and drinks the potion, then she lays down and closes her eyes)</stage>
+				
+				<stage type="entrance">(Romeo enters the scene, runs next to Juliet, falls on his knees and looks at her face)</stage>
+				
+				<sp>
+					<speaker>Romeo</speaker>
+					<p>Now I will stay with you forever.</p>
+				</sp>
+				
+				<stage type="gesture">(Romeo pulls the poison out of his pocket and drinks it. Then, he dies laying down)</stage>
+				
+				<stage type="gesture">(Juliet wakes up, sits, sees Romeo dead)</stage>
+				
+				<sp>
+					<speaker>Juliet</speaker>
+					<p>Oh no!</p>
+				</sp>
+				
+				<stage type="gesture">(Juliet starts crying, she takes Romeo’s sword and kills herself)</stage>
+				
+				<stage type="entrance">(While Romeo and Juliet lay down in the middle of the stage, Narrator 4 enters and goes behind them. Montagues and Capulets enters from two different sides and stop in the front corners of the stage. Everyone is crying except the Narrator.)</stage>
+				
+				<sp>
+					<speaker>Narrator 4</speaker>
+					<p>Romeo and Juliet are both dead. Friar Lawrence tells the Capulets and Montagues what happened. They are so sad they agree not to fight any more.</p>
+				</sp>
+				
+				<stage type="gesture">(Montagues and Capulets all (except Romeo and Juliet) go to the middle of the stage and hug each other. Curtain closes)</stage>
+				
+			</div>
+		</body>
+	</text>	
+</TEI>	

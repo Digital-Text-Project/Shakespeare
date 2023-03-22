@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Play with Shakespeare</title>
+
+        <!-- Logo-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- CSS-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand1"><img src="assets/img/logo.png" width="50" height="50"/></li>
+                <li class="sidebar-brand"><i>Play with Shakespeare</i></li>
+                <li class="sidebar-nav-item"><a href="index.html"><img src="assets/img/home.png" width="25" height="25"/>&emsp;Home</a></li>
+                <li class="sidebar-nav-item"><a href="index.html#about"><img src="assets/img/about.png" width="25" height="25"/>&emsp;About</a></li>
+                <li class="sidebar-nav-item"><a href="plays.html"><img src="assets/img/play.png" width="25" height="25"/>&emsp;Plays</a></li>
+                <li class="sidebar-nav-item"><a href="index.html#team"><img src="assets/img/team.png" width="25" height="25"/>&emsp;The team</a></li>
+                <li class="sidebar-nav-item"><a href="project.html"><img src="assets/img/project.png" width="25" height="25"/>&emsp;The project</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header-->
+        <header class="mastheadPlays d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1" id="PlaysTitle"><img src="assets/img/play.png" width="70" height="70"/>The plays<img src="assets/img/play2.png" width="70" height="70"/></h1>
+                <h3 class="mb-5" id="PlaysTitle">Choose your play and start your journey!</h3>
+            </div>
+        </header>
+
+        <!-- Plays-->
+        <section id="plays">
+                <div class="row gx-0">
+
+                    <div class="album bg-primary py-5">
+                        <div class="container">
+                            <div class="row">
+                             
+                                <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="assets/img/portfolio-1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                <div class="h2">Romeo and Juliet</div>
+                                <p class="mb-0">A tragic love story where the two main characters, Romeo and Juliet, are supposed to be sworn enemies but fall in love.</p>
+                                <br>
+                                <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                <button type="button" onclick="showRomeo()" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="assets/img/portfolio-2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                <div class="h2">Macbeth</div>
+                                <p class="mb-0">The story of one man's violent rise to a position of power as king of his country and of his even more violent downfall.</p>
+                                <br>
+                                <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                <button type="button" onclick="showMacbeth()" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div class="col-md-4">
+                                <div class="card mb-4 box-shadow">
+                                <img class="card-img-top" src="assets/img/portfolio-3.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                <div class="h2">Hamlet</div>
+                                <p class="mb-0">The story of Prince Hamlet and his attempts to exact revenge against his uncle, Claudius, who has murdered Hamlet's father.</p>
+                                <br>
+                                <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                <button type="button" onclick="showHamlet()" class="btn btn-sm btn-outline-secondary">DISCOVER</button>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+
+                            </div> 
+                        </div> 
+                    </div>  
+
+                </div>
+        </section>
+
+        <!-- Plays texts and selection -->
+        <section class="content-section" id="texts">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Hamlet</h3>            
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>Insert picture</p>
+                        <img src="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-7 pt-4 pt-lg-0 content">
+                        <div class="btn-group">
+                            <button onclick="showHamlet()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
+                            <button onclick="showScriptHamlet()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
+                            <a href="xml/hamlet.xml"><button class="btn btn-lg btn-outline-secondary">XML</button></a>&ensp;
+                            <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
+                            <a href="short stories/hamlet.pdf"><button class="btn btn-lg btn-outline-secondary">Short story</button></a>
+                        </div>
+                        <br><br>
+                        <h3>Introduction</h3>
+                        <br>
+                        <p>
+                            Hamlet is the most popular of Shakespeare’s plays for readers and theater audiences, and it is also one of the most puzzling. Many questions about the play continue to fascinate readers and playgoers, making Hamlet not only a revenge tragedy but also very much a mystery. What is this Ghost that appears to Hamlet? Is it Hamlet’s murdered father returned from the everlasting fire to demand justice upon his murderer? Is it a “goblin damned”—that is, a demon bent on claiming Hamlet’s soul by tempting him to assassinate his king? Or is the Ghost “a spirit of health,” an angelic messenger revealing to Hamlet that the young man’s mission in life is to cleanse the kingdom of Denmark of its corrupt king?<br><br>
+                            And what happens to Hamlet after the Ghost commands that the throne of Denmark be cleansed? Does Hamlet actually go mad, becoming unhinged by the accusation that his uncle murdered his father or by the ugly picture the Ghost paints of Hamlet’s lustful mother? Or does Hamlet merely pretend to be mad, pretend so well that he makes us wonder if we can tell the difference between sanity and madness? Why is he so hostile to women, both to his mother and to the woman whom he once courted and whom he claims to have loved dearly? Why does he wait so long to confirm the guilt of the king after the Ghost has accused the king of murder? And once he is convinced that the king is a murderer, why does Hamlet not act immediately?<br><br>
+                            And what about Gertrude? Was she unfaithful to her husband during his lifetime? Was she complicit in his murder? What does she come to believe about Hamlet’s madness? And about her new husband? Beyond such questions about the play and its characters lie deeper issues about the rightness of revenge, about how to achieve an ethical life, and about how to live in a world where tears of sorrow, loving smiles, and friendly words are all suspect because all are “actions that a man might play.” Hamlet’s world is bleak and cold because almost no one and nothing can be trusted. But his world, and Hamlet himself, continue to draw us to them, speaking to every generation of its own problems and its own yearnings. It is a play that seems particularly pertinent today—just as it has seemed particularly pertinent to any number of generations before us.
+                        </p>
+                    </div>  
+                </div>    
+            </div>
+        </section>        
+        
+        <!-- Footer-->
+        <footer class="footer bg-primary text-white text-center">
+            <div class="container px-4 px-lg-5">
+                <img src="assets/img/logo.png" width="60" height="60"/><br><br>
+                <p class="mb-0">MA <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" class="aProj"><i>Digital Humanities and Digital Knowledge</i></a>, <a href="https://www.unibo.it/en/homepage" class="aProj">University of Bologna</a><br>Course <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/424631" class="aProj"><i>Digital Text in the Humanities: Theories, Methodologies and Applications</i></a></p>
+                <br>
+                <p class="small mb-0">Powered by Bootstrap</p>
+                <p class="small mb-0">Copyright &copy; Play with Shakespeare 2023</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
