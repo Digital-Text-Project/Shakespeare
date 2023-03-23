@@ -48,7 +48,8 @@
                     <h2 class="mb-5"><img src="assets/img/disclaimer.png" width="50" height="50"/>Disclaimer</i><img src="assets/img/disclaimer.png" width="50" height="50"/></h2>
                     <p id="about">
                         The <b>purpose of this website</b> is to explore various tools for digital text documents, as an end-of-course project for the <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/424631" class="aProj"><i>Digital Text in the Humanities: Theories, Methodologies and Applications</i></a> course of the Master Degree in <a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" class="aProj"><i>Digital Humanities and Digital Knowledge</i></a> of the <a href="https://www.unibo.it/en/homepage" class="aProj">University of Bologna</a>, under prof. <a href="https://www.unibo.it/sitoweb/tiziana.mancinelli2/en" class="aProj">Tiziana Mancinelli</a>.<br><br>
-                        The <b><a href="plays.html" class="aProj">plays'</a> texts</b> are an adaptation, suited for the theatre, of the short stories for children which have been made available by <a href="https://learnenglishkids.britishcouncil.org/" class="aProj"><i>LearnEnglish Kids</i></a>. Their publication here is not intended to be an alternative or replace the short stories' texts.<br><br>
+                        The <b><a href="plays.html" class="aProj">plays'</a> texts</b> are an adaptation, suited for the theatre, of the short stories for children which have been made available by <a href="https://learnenglishkids.britishcouncil.org/" class="aProj"><i>LearnEnglish Kids</i></a>. Their publication here, presented as a PDF document for each play, is not intended to be an alternative or replace the short stories' texts.<br><br>
+                        The introduction of each play has been written by Barbara Mowat and Paul Werstine, editors of <a href="https://www.folger.edu/" class="aProj">the <i>Folger Shakespeare Library</i> Editions</a>.<br><br> 
                         All <b>copyrights</b> and related rights on the short stories' texts remain with their original owners. All copyright on the plays' texts for children are 2022 © <i>Play with Shakespeare</i>.
                     </p>
                 </div>
@@ -69,6 +70,53 @@
                         <li>XML, which provides the markup of the texts, following the paradigm proposed by the <i>Text Encoding Initiative</i> (TEI);</li>
                         <li>IIIF;</li>
                         <li>XSLT.</li>
+                    </ul>
+                    <h5>XML</h5>
+                    The XML structure has followed the <a href="https://tei-c.org/">TEI</a> model. In particular, the guidelines for <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/DR.html">Performance Texts</a> and <a href="https://teibyexample.org/tutorials/TBED05v00.htm#:~:text=It%20is%20important%20to%20notice%20that%20the%20TEI,in%20the%20spoken%20module%2C%20documented%20in%20chapter%208.%C3%A0https://teibyexample.org/tutorials/TBED07v00.htm#variation">Drama Texts</a> have been exploited.<br><br> 
+                    Follows a description of all the <b>elements</b> that compose the XML files of the plays.<br>
+                    <ul>
+                        <li>&lt <b> text</b> &gt  contains everything</li>
+                        <li>&lt <b> front</b> &gt  contains any prefatory matter (headers, abstracts, title page, prefaces, dedications, etc.) found at the start of a document, before the main body</li>
+                        <li>&lt <b> docTitle</b> &gt  contains the title of the play</li>
+                    •	&lt <b> set</b> &gt  contains a description of the setting, time, locale, appearance, etc., of the action of a play, typically found in the front matter
+                    •	&lt <b> castList</b> &gt  contains a single cast list or dramatis personae
+                    •	&lt <b> castGroup</b> &gt  contains groups of one or more individual castItem elements within a cast list
+                    •	&lt <b> castItem</b> &gt  contains a single entry within a cast list, describing either a single role
+                    •	&lt <b> role</b> &gt  contains the name of a dramatic role, as given in a cast list
+                    •	&lt <b> roleDesc</b> &gt  (role description) describes a character's role in a drama. We will use the following types based on role: <i>Protagonist, Antagonist, Deuteragonist, Confidante, Love interest</i>
+                    •	&lt <b> body</b> &gt  contains the whole body of a single unitary text, excluding any front or back matter
+                    •	&lt <b> stage</b> &gt  contains any kind of stage direction within a dramatic text or fragment. Without attributes, we use it to indicate the characters that are present within a scene
+                    •	&lt <b> stage type=&quot;entrance&quot;</b> &gt  describes how a character enters the scene
+                    •	 &lt <b> sp</b> &gt  general element for containing information about a speaker
+                    •	 &lt <b> speaker</b> &gt  the character speaking
+                    •	&lt <b> p</b> &gt  (within the &lt sp &gt  element) contains the direct dialogue, the words spoken by the character
+                    •	&lt <b> stage type=&quot;gesture&quot;</b> &gt  contains directions about gestures of the characters
+                    •	&lt <b> stage type=&quot;exit&quot;</b> &gt  describes how a character leaves the scene
+                    •	&lt <b>teiHeader</b> &gt  supplies descriptive and declarative metadata associated with a digital resource or set of resources
+                    •	&lt <b> fileDesc</b> &gt  (file description) contains a full bibliographic description of an electronic file
+                    •	&lt <b> titleStmt</b> &gt  (title statement) groups information about the title of a work and those responsible for its content
+                    •	&lt <b> respStmt</b> &gt   (responsibility statement) groups information about those responsible for a work’s content
+                    •	&lt <b> publicationStmt</b> &gt  (publication statement) groups information concerning the publication or distribution of an electronic or other text
+                    •	&lt <b> sourceDesc</b> &gt  (source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as &quot;born digital&quot; for a text which has no previous existence
+                    •	&lt <b> encodingDesc</b> &gt  (encoding description) documents the relationship between an electronic text and the source or sources from which it was derived
+                    •	&lt <b> projectDesc</b> &gt  (project description) describes in detail the aim or purpose for which an electronic file was encoded, together with any other relevant information concerning the process by which it was assembled or collected
+                    •	&lt <b> schemaSpec</b> &gt  (schema specification) generates a TEI-conformant schema and documentation for it
+                    •	&lt <b> tagsDecl</b> &gt  (tagging declaration) provides detailed information about the tagging applied to a document
+                    •	&lt <b> namespace</b> &gt  (namespace) supplies the formal name of the namespace to which the elements documented by its children belong
+                    •	&lt <b> tagUsage</b> &gt  (element usage) documents the usage of a specific element within a specified document
+                    •	&lt <b> profileDesc</b> &gt  (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting
+                    •	&lt <b> langUsage</b> &gt  (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text
+                    •	&lt <b> textDesc</b> &gt  (text description) provides a description of a text in terms of its situational parameters
+                    •	&lt <b> channel</b> &gt  (primary channel) describes the medium or channel by which a text is delivered or experienced. In our case, the mode is <i> &quot;=ws&quot; </i>, which means &quot;written to be spoken&quot;
+                    •	&lt <b> constitution</b> &gt  (constitution) describes the internal composition of a text or text sample, for example as fragmentary, complete, etc. Our text is <i> single </i>, which means it is a complete text
+                    •	&lt <b> derivation</b> &gt  (derivation) describes the nature and extent of originality of this text.<i> revision </i> = text is a revision of some other text
+                    •	&lt <b> domain</b> &gt  (domain of use) describes the most important social context in which the text was realized or for which it is intended, for example private vs. public, education, religion, etc. <i>education</i>= education
+                    •	&lt <b>factuality</b> &gt  (factuality) describes the extent to which the text may be regarded as imaginative or non-imaginative, that is, as describing a fictional or a non-fictional world. <i>fiction</i>= the text is to be regarded as entirely imaginative
+                    •	&lt <b> interaction</b> &gt  (interaction) describes the extent, cardinality and nature of any interaction among those producing and experiencing the text, for example in the form of response or interjection, commentary, etc. <b><i>type</i></b> specifies the degree of interaction between active and passive participants in the text. <i>complete</i>= complete interaction, e.g. a face to face conversation; <b><i>active</i></b>  specifies the number of active participants (or addressors) producing parts of the text. <i>plural</i>= many addressors; <b><i>passive</i></b>  specifies the number of passive participants (or addressees) to whom a text is directed or in whose presence it is created or performed. <i>group</i>= text is addressed to an undefined but fixed number of participants e.g. a lecture
+                    •	&lt <b> preparedness</b> &gt  (preparedness) describes the extent to which a text may be regarded as prepared or spontaneous. <i>scripted</i>= follows a script
+                    •	&lt <b> purpose</b> &gt  characterizes a single purpose or communicative function of the text. <b><i>type</i></b> specifies a particular kind of purpose. <i>persuade</i>= didactic, advertising, propaganda, etc.; <i>entertain</i>= amuse, entertain, etc. <b><i>degree </i></b> specifies the extent to which this purpose predominates. <i>high</i>= this purpose is predominant; <i>medium</i>= this purpose is intermediate
+                    •	&lt <b> settingDesc</b> &gt  (setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata
+                </li>
                     </ul>
                 </p>
             </div>

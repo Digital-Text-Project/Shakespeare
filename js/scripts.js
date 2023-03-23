@@ -98,9 +98,9 @@ function showRomeo() {
                 <div class="btn-group">
                     <button onclick="showRomeo()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptRomeo()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
-                    <a href="xml/romeoAndJuliet.xml"><button class="btn btn-lg btn-outline-secondary">XML</button></a>&ensp;
+                    <button onclick="window.open('xml/romeoAndJuliet.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
                     <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
-                    <a href="short stories/romeoAndJuliet.pdf"><button class="btn btn-lg btn-outline-secondary">Short story</button></a>
+                    <button onclick="window.open('short stories/romeoAndJuliet.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
                 <h3>Introduction</h3>
@@ -131,9 +131,9 @@ function showScriptRomeo() {
                 <div class="btn-group">
                     <button onclick="showRomeo()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptRomeo()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
-                    <a href="xml/romeoAndJuliet.xml"><button class="btn btn-lg btn-outline-secondary">XML</button></a>&ensp;
+                    <button onclick="window.open('xml/romeoAndJuliet.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
                     <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
-                    <a href="short stories/romeoAndJuliet.pdf"><button class="btn btn-lg btn-outline-secondary">Short story</button></a>
+                    <button onclick="window.open('short stories/romeoAndJuliet.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
                 <h3>Script</h3>
@@ -229,9 +229,9 @@ function showMacbeth() {
                 <div class="btn-group">
                     <button onclick="showMacbeth()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptMacbeth()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
-                    <a href="xml/macbeth.xml"><button class="btn btn-lg btn-outline-secondary">XML</button></a>&ensp;
+                    <button onclick="window.open('xml/macbeth.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
                     <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
-                    <a href="short stories/macbeth.pdf"><button class="btn btn-lg btn-outline-secondary">Short story</button></a>
+                    <button onclick="window.open('short stories/macbeth.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
                 <h3>Introduction</h3>
@@ -264,9 +264,9 @@ function showScriptMacbeth() {
                 <div class="btn-group">
                     <button onclick="showMacbeth()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptMacbeth()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
-                    <a href="xml/macbeth.xml"><button class="btn btn-lg btn-outline-secondary">XML</button></a>&ensp;
+                    <button onclick="window.open('xml/macbeth.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
                     <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
-                    <a href="short stories/macbeth.pdf"><button class="btn btn-lg btn-outline-secondary">Short story</button></a>
+                    <button onclick="window.open('short stories/macbeth.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
                 <h3>Script</h3>
@@ -345,9 +345,9 @@ function showHamlet() {
                 <div class="btn-group">
                     <button onclick="showHamlet()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptHamlet()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
-                    <a href="xml/hamlet.xml"><button class="btn btn-lg btn-outline-secondary">XML</button></a>&ensp;
+                    <button onclick="window.open('xml/hamlet.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
                     <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
-                    <a href="short stories/hamlet.pdf"><button class="btn btn-lg btn-outline-secondary">Short story</button></a>
+                    <button onclick="window.open('short stories/hamlet.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
                 <h3>Introduction</h3>
@@ -380,9 +380,9 @@ function showScriptHamlet() {
                 <div class="btn-group">
                     <button onclick="showHamlet()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptHamlet()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
-                    <a href="xml/hamlet.xml"><button class="btn btn-lg btn-outline-secondary">XML</button></a>&ensp;
+                    <button onclick="window.open('xml/hamlet.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
                     <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
-                    <a href="short stories/hamlet.pdf"><button class="btn btn-lg btn-outline-secondary">Short story</button></a>
+                    <button onclick="window.open('short stories/hamlet.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
                 <h3>Script</h3>
