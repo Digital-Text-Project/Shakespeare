@@ -1,3 +1,8 @@
+$ npm install mirador 
+
+
+
+
 // already present functions from Bootstrap template
 
 window.addEventListener('DOMContentLoaded', event => {
