@@ -15,6 +15,9 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- CSS-->
         <link href="css/styles.css" rel="stylesheet" />
+       <!--per IIIF--> 
+       <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+           
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -110,26 +113,18 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <p>insert image</p>
-                        <div id="my-mirador"> 
+                        <section id="iiif" class="iiif_section margin-top">
 
-                                <script type="text/javascript">
-                                var mirador = Mirador.viewer({
-                                "id": "my-mirador",
-                                "manifests": {
-                                    "https://iiif.lib.harvard.edu/manifests/drs:48309543": {
-                                    "provider": "Harvard University"
-                                    }
-                                },
-                                "windows": [
-                                    {
-                                    "loadedManifest": "https://iiif.lib.harvard.edu/manifests/drs:48309543",
-                                    "canvasIndex": 2,
-                                    "thumbnailNavigationPosition": 'far-bottom'
-                                    }
-                                ]
-                                });
-                                </script>
-                        </div>
+                            <div class="grid">
+                                <div class="col-100">
+                                    <h2 class="subheadline">
+                                        Bodleian Library
+                                    </h2>
+                                        <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                                    </iframe>
+                                </div>
+                            </div>
+                        </section>  
                     </div>
                     <div class="col-lg-7 pt-4 pt-lg-0 content">
                         <div class="btn-group">

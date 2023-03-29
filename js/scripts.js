@@ -1,8 +1,3 @@
-$ npm install mirador 
-
-
-
-
 // already present functions from Bootstrap template
 
 window.addEventListener('DOMContentLoaded', event => {
@@ -96,8 +91,25 @@ function showRomeo() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-                <p>Insert picture</p>
-                <img src="" class="img-fluid">
+            <p>insert image</p>
+
+            <div id="viewer"></div>
+
+            <!-- Initialize Mirador with your configuration options -->
+            <script type="text/javascript">
+              document.addEventListener('DOMContentLoaded', function() {
+                Mirador({
+                  id: 'viewer',
+                  data: [
+                  {
+                  "manifestUri": "https://server.collections.folger.edu/iiif/manifest/from-dap-id/c441ae2a-73f9-423e-a5e5-f1cb6ea2f81f.json",
+                  "location": "Harvard Art Museums",
+                  "title": "Portrait of a Lady"
+                }
+                  ]
+                });
+              });
+            </script>  
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
@@ -130,7 +142,25 @@ function showScriptRomeo() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-                <img src="" class="img-fluid">
+            <p>insert image</p>
+
+                                <div id="viewer"></div>
+
+                                <!-- Initialize Mirador with your configuration options -->
+                                <script type="text/javascript">
+                                  document.addEventListener('DOMContentLoaded', function() {
+                                    Mirador({
+                                      id: 'viewer',
+                                      data: [
+                                      {
+                                      "manifestUri": "https://server.collections.folger.edu/iiif/manifest/from-dap-id/c441ae2a-73f9-423e-a5e5-f1cb6ea2f81f.json",
+                                      "location": "Harvard Art Museums",
+                                      "title": "Portrait of a Lady"
+                                    }
+                                      ]
+                                    });
+                                  });
+                                </script>  
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
