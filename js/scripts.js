@@ -92,12 +92,23 @@ function showRomeo() {
         <div class="row">
             <div class="col-lg-4">
                 <section id="iiif" class="iiif_section margin-top">
+                <div class="grid">
+                    <div class="col-100">
+                        <h2 class="subheadline">
+                            Romeo, Juliet and Nurse. <i>(Act III, scene V)</i>
+                        </h2>
+                            <iframe src="mirador/R&J_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                        </iframe>
+                    </div>
+                </div>
+                </section>  
+                <section id="iiif" class="iiif_section margin-top">
                     <div class="grid">
                         <div class="col-100">
                             <h2 class="subheadline">
                                 Mercutio
                             </h2>
-                            <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            <iframe src="mirador/mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
                         </div>
                     </div>
@@ -135,12 +146,23 @@ function showScriptRomeo() {
         <div class="row">
             <div class="col-lg-4">
             <section id="iiif" class="iiif_section margin-top">
+            <div class="grid">
+                <div class="col-100">
+                    <h2 class="subheadline">
+                        Romeo, Juliet and Nurse. <i>(Act III, scene V)</i>
+                    </h2>
+                        <iframe src="mirador/R&J_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                    </iframe>
+                </div>
+            </div>
+            </section>  
+            <section id="iiif" class="iiif_section margin-top">
                 <div class="grid">
                     <div class="col-100">
                         <h2 class="subheadline">
                             Mercutio
                         </h2>
-                        <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                        <iframe src="mirador/mirador_viewer.html" frameborder="0" class="mirador_viewer">
                         </iframe>
                     </div>
                 </div>

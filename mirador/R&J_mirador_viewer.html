@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Play with Shakespeare</title>
+
+        <!-- Logo-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- CSS-->
+        <link href="css/styles.css" rel="stylesheet" />
+       <!--per IIIF--> 
+       <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+           
+    </head>
+<body>
+    <div id="my-mirador"/> 
+
+                    <script type="text/javascript">
+                    var mirador = Mirador.viewer({
+                    "id": "my-mirador",
+                    "manifests": {
+                        "json/R&J_manifest.json": {
+                        "provider": "IIIF Tutorial University of Bologna"
+                        }
+                    },
+                    "windows": [
+                        {
+                        "loadedManifest": "json/R&J_manifest.json",
+                        "canvasIndex": 2,
+                        "thumbnailNavigationPosition": 'far-bottom'
+                        }
+                    ]
+                    });
+                    </script>
+    </div>
+
+
+
+
+</body>
