@@ -400,8 +400,17 @@ function showHamlet() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-                <p>Insert picture</p>
-                <img src="" class="img-fluid">
+            <section id="iiif" class="iiif_section margin-top">
+            <div class="grid">
+                <div class="col-100">
+                    <h2 class="subheadline">
+                        Halmet:s"To be or not to be"
+                    </h2>
+                    <iframe src="mirador/halmet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                    </iframe>
+                </div>
+            </div>
+        </section>
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
@@ -435,8 +444,17 @@ function showScriptHamlet() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-                <p>Insert picture</p>
-                <img src="" class="img-fluid">
+            <section id="iiif" class="iiif_section margin-top">
+            <div class="grid">
+                <div class="col-100">
+                    <h2 class="subheadline">
+                        Halmet:s"To be or not to be"
+                    </h2>
+                    <iframe src="mirador/halmet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                    </iframe>
+                </div>
+            </div>
+        </section>
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
