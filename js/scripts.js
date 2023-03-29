@@ -92,15 +92,15 @@ function showRomeo() {
         <div class="row">
             <div class="col-lg-4">
                 <section id="iiif" class="iiif_section margin-top">
-                <div class="grid">
-                    <div class="col-100">
-                        <h2 class="subheadline">
-                            Romeo, Juliet and Nurse. <i>(Act III, scene V)</i>
-                        </h2>
+                    <div class="grid">
+                        <div class="col-100">
+                            <h2 class="subheadline">
+                                Romeo, Juliet and Nurse <i>(Act III, scene V)</i>
+                            </h2>
                             <iframe src="mirador/R&J_mirador_viewer.html" frameborder="0" class="mirador_viewer">
-                        </iframe>
+                            </iframe>
+                        </div>
                     </div>
-                </div>
                 </section>  
                 <section id="iiif" class="iiif_section margin-top">
                     <div class="grid">
@@ -108,7 +108,7 @@ function showRomeo() {
                             <h2 class="subheadline">
                                 Mercutio
                             </h2>
-                            <iframe src="mirador/mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            <iframe src="mirador/mercutio_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
                         </div>
                     </div>
@@ -145,30 +145,30 @@ function showScriptRomeo() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-            <section id="iiif" class="iiif_section margin-top">
-            <div class="grid">
-                <div class="col-100">
-                    <h2 class="subheadline">
-                        Romeo, Juliet and Nurse. <i>(Act III, scene V)</i>
-                    </h2>
-                        <iframe src="mirador/R&J_mirador_viewer.html" frameborder="0" class="mirador_viewer">
-                    </iframe>
-                </div>
-            </div>
-            </section>  
-            <section id="iiif" class="iiif_section margin-top">
-                <div class="grid">
-                    <div class="col-100">
-                        <h2 class="subheadline">
-                            Mercutio
-                        </h2>
-                        <iframe src="mirador/mirador_viewer.html" frameborder="0" class="mirador_viewer">
-                        </iframe>
+                <section id="iiif" class="iiif_section margin-top">
+                    <div class="grid">
+                        <div class="col-100">
+                            <h2 class="subheadline">
+                                Romeo, Juliet and Nurse <i>(Act III, scene V)</i>
+                            </h2>
+                            <iframe src="mirador/R&J_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            </iframe>
+                        </div>
                     </div>
-                </div>
-            </section>  
+                </section>  
+                <section id="iiif" class="iiif_section margin-top">
+                    <div class="grid">
+                        <div class="col-100">
+                            <h2 class="subheadline">
+                                Mercutio
+                            </h2>
+                            <iframe src="mirador/mercutio_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>  
             </div>
-             <div class="col-lg-7 pt-4 pt-lg-0 content">
+            <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
                     <button onclick="showRomeo()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptRomeo()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
