@@ -101,7 +101,8 @@ function showRomeo() {
                             </iframe>
                         </div>
                     </div>
-                </section>  
+                </section> 
+                <br> 
                 <section id="iiif" class="iiif_section margin-top">
                     <div class="grid">
                         <div class="col-100">
@@ -155,7 +156,8 @@ function showScriptRomeo() {
                             </iframe>
                         </div>
                     </div>
-                </section>  
+                </section>
+                <br>
                 <section id="iiif" class="iiif_section margin-top">
                     <div class="grid">
                         <div class="col-100">
