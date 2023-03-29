@@ -91,25 +91,18 @@ function showRomeo() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-            <p>insert image</p>
-
-            <div id="viewer"></div>
-
-            <!-- Initialize Mirador with your configuration options -->
-            <script type="text/javascript">
-              document.addEventListener('DOMContentLoaded', function() {
-                Mirador({
-                  id: 'viewer',
-                  data: [
-                  {
-                  "manifestUri": "https://server.collections.folger.edu/iiif/manifest/from-dap-id/c441ae2a-73f9-423e-a5e5-f1cb6ea2f81f.json",
-                  "location": "Harvard Art Museums",
-                  "title": "Portrait of a Lady"
-                }
-                  ]
-                });
-              });
-            </script>  
+                <p>insert image</p>
+                <section id="iiif" class="iiif_section margin-top">
+                    <div class="grid">
+                        <div class="col-100">
+                            <h2 class="subheadline">
+                                Bodleian Library
+                            </h2>
+                                <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>  
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
@@ -142,25 +135,18 @@ function showScriptRomeo() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-            <p>insert image</p>
-
-                                <div id="viewer"></div>
-
-                                <!-- Initialize Mirador with your configuration options -->
-                                <script type="text/javascript">
-                                  document.addEventListener('DOMContentLoaded', function() {
-                                    Mirador({
-                                      id: 'viewer',
-                                      data: [
-                                      {
-                                      "manifestUri": "https://server.collections.folger.edu/iiif/manifest/from-dap-id/c441ae2a-73f9-423e-a5e5-f1cb6ea2f81f.json",
-                                      "location": "Harvard Art Museums",
-                                      "title": "Portrait of a Lady"
-                                    }
-                                      ]
-                                    });
-                                  });
-                                </script>  
+                <p>insert image</p>
+                <section id="iiif" class="iiif_section margin-top">
+                    <div class="grid">
+                        <div class="col-100">
+                            <h2 class="subheadline">
+                                Bodleian Library
+                            </h2>
+                                <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>  
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
