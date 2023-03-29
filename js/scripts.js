@@ -263,8 +263,17 @@ function showMacbeth() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-                <p>Insert picture</p>
-                <img src="" class="img-fluid">
+                <section id="iiif" class="iiif_section margin-top">
+                    <div class="grid">
+                        <div class="col-100">
+                            <h2 class="subheadline">
+                                Macbeth and Lady Macbeth
+                            </h2>
+                            <iframe src="mirador/macbeth_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>  
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
@@ -299,7 +308,17 @@ function showScriptMacbeth() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-                <img src="" class="img-fluid">
+                <section id="iiif" class="iiif_section margin-top">
+                    <div class="grid">
+                        <div class="col-100">
+                            <h2 class="subheadline">
+                                Macbeth and Lady Macbeth
+                            </h2>
+                            <iframe src="mirador/macbeth_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>  
             </div>
             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
