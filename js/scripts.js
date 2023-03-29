@@ -404,9 +404,9 @@ function showHamlet() {
             <div class="grid">
                 <div class="col-100">
                     <h2 class="subheadline">
-                        Halmet:s"To be or not to be"
+                        Hamlet:"To be or not to be"
                     </h2>
-                    <iframe src="mirador/halmet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                    <iframe src="mirador/hamlet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                     </iframe>
                 </div>
             </div>
@@ -448,9 +448,9 @@ function showScriptHamlet() {
             <div class="grid">
                 <div class="col-100">
                     <h2 class="subheadline">
-                        Halmet:s"To be or not to be"
+                        Hamlet:"To be or not to be"
                     </h2>
-                    <iframe src="mirador/halmet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                    <iframe src="mirador/hamlet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                     </iframe>
                 </div>
             </div>
