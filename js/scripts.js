@@ -91,14 +91,13 @@ function showRomeo() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-                <p>insert image</p>
                 <section id="iiif" class="iiif_section margin-top">
                     <div class="grid">
                         <div class="col-100">
                             <h2 class="subheadline">
-                                Bodleian Library
+                                Mercutio
                             </h2>
-                                <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                            <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
                         </div>
                     </div>
@@ -135,20 +134,19 @@ function showScriptRomeo() {
         <br><br>
         <div class="row">
             <div class="col-lg-4">
-                <p>insert image</p>
-                <section id="iiif" class="iiif_section margin-top">
-                    <div class="grid">
-                        <div class="col-100">
-                            <h2 class="subheadline">
-                                Bodleian Library
-                            </h2>
-                                <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
-                            </iframe>
-                        </div>
+            <section id="iiif" class="iiif_section margin-top">
+                <div class="grid">
+                    <div class="col-100">
+                        <h2 class="subheadline">
+                            Mercutio
+                        </h2>
+                        <iframe src="mirador_viewer.html" frameborder="0" class="mirador_viewer">
+                        </iframe>
                     </div>
-                </section>  
+                </div>
+            </section>  
             </div>
-            <div class="col-lg-7 pt-4 pt-lg-0 content">
+             <div class="col-lg-7 pt-4 pt-lg-0 content">
                 <div class="btn-group">
                     <button onclick="showRomeo()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptRomeo()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
