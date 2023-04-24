@@ -95,7 +95,7 @@ function showRomeo() {
                     <div class="grid">
                         <div class="col-100">
                             <h2 class="subheadline">
-                                Romeo, Juliet and Nurse <i>(Act III, scene V)</i>
+                                Romeo and Juliet
                             </h2>
                             <iframe src="mirador/R&J_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
@@ -150,7 +150,7 @@ function showScriptRomeo() {
                     <div class="grid">
                         <div class="col-100">
                             <h2 class="subheadline">
-                                Romeo, Juliet and Nurse <i>(Act III, scene V)</i>
+                                Romeo and Juliet
                             </h2>
                             <iframe src="mirador/R&J_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
@@ -269,10 +269,13 @@ function showMacbeth() {
                     <div class="grid">
                         <div class="col-100">
                             <h2 class="subheadline">
-                                Macbeth and Lady Macbeth
+                                Lady Macbeth
                             </h2>
                             <iframe src="mirador/macbeth_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
+                            <br>
+                            <h2>Curiosity:</h2><h3>The Prompt Book is the master copy of the script or score, containing all the actor moves and technical cues, and is 
+                                        used by the deputy stage manager to run rehearsals and later, control the performance. It's sometimes known as the 'book', Prompt Copy or Prompt Script.</h3>
                         </div>
                     </div>
                 </section>  
@@ -314,10 +317,13 @@ function showScriptMacbeth() {
                     <div class="grid">
                         <div class="col-100">
                             <h2 class="subheadline">
-                                Macbeth and Lady Macbeth
+                                Lady Macbeth
                             </h2>
                             <iframe src="mirador/macbeth_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
+                            <br>
+                            <h2>Curiosity:</h2><h3>The Prompt Book is the master copy of the script or score, containing all the actor moves and technical cues, and is 
+                                        used by the deputy stage manager to run rehearsals and later, control the performance. It's sometimes known as the 'book', Prompt Copy or Prompt Script.</h3>
                         </div>
                     </div>
                 </section>  
@@ -408,6 +414,11 @@ function showHamlet() {
                             </h2>
                             <iframe src="mirador/hamlet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
+                            <br>
+                            <h2>Curiosity:</h2><h3>
+                            Edward Hugh Sothern (December 6, 1859 – October 28, 1933) 
+                            was an American actor who specialized in dashing, romantic leading roles and particularly in Shakespeare roles.
+                            </h3>
                         </div>
                     </div>
                 </section>
@@ -452,6 +463,11 @@ function showScriptHamlet() {
                             </h2>
                             <iframe src="mirador/hamlet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
+                            <br>
+                            <h2>Curiosity:</h2><h3>
+                            Edward Hugh Sothern (December 6, 1859 – October 28, 1933) 
+                            was an American actor who specialized in dashing, romantic leading roles and particularly in Shakespeare roles.
+                            </h3>
                         </div>
                     </div>
                 </section>
