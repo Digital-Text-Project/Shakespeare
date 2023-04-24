@@ -274,8 +274,8 @@ function showMacbeth() {
                             <iframe src="mirador/macbeth_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
                             <br>
-                            <h2>Curiosity:</h2><h3>The Prompt Book is the master copy of the script or score, containing all the actor moves and technical cues, and is 
-                                        used by the deputy stage manager to run rehearsals and later, control the performance. It's sometimes known as the 'book', Prompt Copy or Prompt Script.</h3>
+                            <h3>Curiosity:</h3><h4>The Prompt Book is the master copy of the script or score, containing all the actor moves and technical cues, and is 
+                                        used by the deputy stage manager to run rehearsals and later, control the performance. It's sometimes known as the 'book', Prompt Copy or Prompt Script.</h4>
                         </div>
                     </div>
                 </section>  
@@ -322,8 +322,8 @@ function showScriptMacbeth() {
                             <iframe src="mirador/macbeth_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
                             <br>
-                            <h2>Curiosity:</h2><h3>The Prompt Book is the master copy of the script or score, containing all the actor moves and technical cues, and is 
-                                        used by the deputy stage manager to run rehearsals and later, control the performance. It's sometimes known as the 'book', Prompt Copy or Prompt Script.</h3>
+                            <h3>Curiosity:</h3><h4>The Prompt Book is the master copy of the script or score, containing all the actor moves and technical cues, and is 
+                                        used by the deputy stage manager to run rehearsals and later, control the performance. It's sometimes known as the 'book', Prompt Copy or Prompt Script.</h4>
                         </div>
                     </div>
                 </section>  
@@ -415,10 +415,10 @@ function showHamlet() {
                             <iframe src="mirador/hamlet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
                             <br>
-                            <h2>Curiosity:</h2><h3>
+                            <h3>Curiosity:</h3><h4>
                             Edward Hugh Sothern (December 6, 1859 – October 28, 1933) 
                             was an American actor who specialized in dashing, romantic leading roles and particularly in Shakespeare roles.
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                 </section>
@@ -464,10 +464,10 @@ function showScriptHamlet() {
                             <iframe src="mirador/hamlet_mirador_viewer.html" frameborder="0" class="mirador_viewer">
                             </iframe>
                             <br>
-                            <h2>Curiosity:</h2><h3>
+                            <h3>Curiosity:</h3><h4>
                             Edward Hugh Sothern (December 6, 1859 – October 28, 1933) 
                             was an American actor who specialized in dashing, romantic leading roles and particularly in Shakespeare roles.
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                 </section>
