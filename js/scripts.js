@@ -120,7 +120,7 @@ function showRomeo() {
                     <button onclick="showRomeo()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptRomeo()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
                     <button onclick="window.open('xml/romeoAndJuliet.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
-                    <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
+                    <button onclick="window.open('xslt/romeoAndJuliet.xml')" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
                     <button onclick="window.open('short stories/romeoAndJuliet.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
@@ -175,7 +175,7 @@ function showScriptRomeo() {
                     <button onclick="showRomeo()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptRomeo()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
                     <button onclick="window.open('xml/romeoAndJuliet.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
-                    <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
+                    <button onclick="window.open('xslt/romeoAndJuliet.xml')" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
                     <button onclick="window.open('short stories/romeoAndJuliet.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
@@ -285,7 +285,7 @@ function showMacbeth() {
                     <button onclick="showMacbeth()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptMacbeth()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
                     <button onclick="window.open('xml/macbeth.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
-                    <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
+                    <button onclick="window.open('xslt/macbeth.xml')" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
                     <button onclick="window.open('short stories/macbeth.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
@@ -333,7 +333,7 @@ function showScriptMacbeth() {
                     <button onclick="showMacbeth()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptMacbeth()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
                     <button onclick="window.open('xml/macbeth.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
-                    <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
+                    <button onclick="window.open('xslt/macbeth.xml')" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
                     <button onclick="window.open('short stories/macbeth.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
@@ -428,7 +428,7 @@ function showHamlet() {
                     <button onclick="showHamlet()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptHamlet()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
                     <button onclick="window.open('xml/hamlet.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
-                    <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
+                    <button onclick="window.open('xslt/hamlet.xml')" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
                     <button onclick="window.open('short stories/hamlet.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
@@ -477,7 +477,7 @@ function showScriptHamlet() {
                     <button onclick="showHamlet()" class="btn btn-lg btn-outline-secondary">Introduction</button>&ensp;
                     <button onclick="showScriptHamlet()" class="btn btn-lg btn-outline-secondary">Script</button>&ensp;
                     <button onclick="window.open('xml/hamlet.xml')" class="btn btn-lg btn-outline-secondary">XML</button>&ensp;
-                    <button onclick="" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
+                    <button onclick="window.open('xslt/hamlet.xml')" class="btn btn-lg btn-outline-secondary">XSLT</button>&ensp;
                     <button onclick="window.open('short stories/hamlet.pdf')" class="btn btn-lg btn-outline-secondary">Short story</button>
                 </div>
                 <br><br>
